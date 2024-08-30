@@ -1,0 +1,20 @@
+        div {
+            border: 10px solid rgb(106, 232, 232);
+            height: 240px;
+            width: 240px;
+        }
+
+        .anjli {
+            border: 10px solid orange;
+            height: 150px;
+            width: 150px;
+            margin: 30px;
+        }
+        .dot {
+            border: 10px solid greenyellow;
+            border-radius: 50% ;
+            height: 90px;
+            width: 90px;
+            display: inline-block;
+            margin: 20px;
+        }

@@ -1,0 +1,13 @@
+.animal {
+    display: flex;
+}
+.animal img {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border:2px solid rgba(20, 221, 20, 0.824); 
+}
+.animal h1{
+    text-align: center;
+    font-size: 15px;
+}

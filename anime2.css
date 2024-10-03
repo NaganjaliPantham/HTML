@@ -13,7 +13,7 @@ body{
 .heart{
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: rgb(14, 11, 11);
     position: relative;
     transform: rotate(-45deg);
     box-shadow: -10px 20px 90px red;

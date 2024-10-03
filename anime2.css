@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    min-height:100vh ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heart{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 20px 90px red;
+    animation: he 2s linear infinite;
+    left: 20%;
+    z-index: 9;
+}
+.heart::before{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    top: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50px;
+    animation: he 2s linear infinite;
+}
+.heart::after{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    right: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50px;
+    animation: he 2s linear infinite;
+}
+@keyframes he{
+    0%{
+        transform: rotate(-45deg) scale(1.05);
+        background-color: red;
+    }
+    10%{
+        transform: rotate(-45deg) scale(1.04);
+        background-color: rgb(248, 44, 44);
+    }
+    20%{
+        transform: rotate(-45deg) scale(1.03);
+        background-color: rgb(252, 70, 70);
+    }
+    40%{
+        transform: rotate(-45deg) scale(1.02);
+        background-color: rgb(236, 94, 94);
+    }
+    50%{
+        transform: rotate(-45deg) scale(1.01);
+        background-color: rgb(252, 156, 156);
+    }
+    60%{
+        transform: rotate(-45deg) scale(1.0);
+        background-color:white;
+    }
+    70%{
+        transform: rotate(-45deg) scale(1.01);
+        background-color: rgb(252, 156, 156);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.02);
+        background-color: rgb(236, 94, 94);
+    }   
+    90%{
+        transform: rotate(-45deg) scale(1.03);
+        background-color: rgb(252, 70, 70);
+    } 
+    100%{
+        transform: rotate(-45deg) scale(1.04);
+        background-color:rgb(248, 44, 44);
+    }
+} 
+.circle{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-color:transparent;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    animation: cir 2s linear infinite;
+    z-index: 8;
+    left: 5.5%;
+}
+@keyframes cir {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: transparent;
+        transition: 2s;
+        border: 5px solid rgb(209, 8, 41);
+    }
+}
+.square{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid gold;
+    animation: squ 2s linear infinite;
+    position: relative;
+    right: 20%;
+}
+@keyframes squ {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(0deg);
+        background-color: transparent;
+        transition: 10s;
+        border: 5px solid rgb(2, 75, 24);
+    }
+}
+@media(max-width:768px) {
+    .heart {
+        height: 70px;
+        width: 70px;
+        left: 45%;
+    }
+}

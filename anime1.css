@@ -25,7 +25,7 @@ svg path:nth-child(4) {
 svg path:nth-child(5) {
     stroke-dasharray: 910px;
     stroke-dashoffset: 910px;
-    animation: a 5s linear forwards;
+    animation: a 5s infinite;
 }
 
 svg path:nth-child(6) {

@@ -13,7 +13,7 @@ svg path:nth-child(2) {
 svg path:nth-child(3) {
     stroke-dasharray: 790px;
     stroke-dashoffset: 790px;
-    animation: a 5s linear forwards;
+    animation: a 5s infinite;
 }
 
 svg path:nth-child(4) {

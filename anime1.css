@@ -1,8 +1,7 @@
-body{}
 svg path:nth-child(1) {
     stroke-dasharray: 460px;
     stroke-dashoffset: 460px;
-    animation: a 5s linear forwards;
+    animation: a 5s infinite;
 }
 
 svg path:nth-child(2) {

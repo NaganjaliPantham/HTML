@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+}
+.a{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: anjali 5s infinite;
+    position: relative;
+}
+@keyframes anjali{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    25%{
+        top: 0;
+        left: 92.5%;
+        background-color: green;
+        border-radius: 25px;
+    }
+    50%{
+        top: 530%;
+        left: 92.5%;
+        background-color: rgb(250, 15, 199);
+        border-radius: 2px;
+    }
+    75%{
+        top: 530%;
+        left:0;
+        background-color: blue;
+        border-radius: 25%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+}

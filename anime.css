@@ -35,7 +35,7 @@ body{
     75%{
         top: 530%;
         left:0;
-        background-color: blue;
+        background-color: rgb(11, 11, 140);
         border-radius: 25%;
     }
     100%{

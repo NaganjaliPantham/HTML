@@ -89,7 +89,7 @@ body{
     position: relative;
     background-color:transparent;
     border-radius: 50%;
-    border: 2px solid skyblue;
+    border: 2px solid rgb(81, 196, 242);
     animation: cir 2s linear infinite;
     z-index: 8;
     left: 5.5%;

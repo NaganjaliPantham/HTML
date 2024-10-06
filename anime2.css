@@ -109,7 +109,7 @@ body{
     height: 400px;
     width: 400px;
     background-color: transparent;
-    border: 2px solid gold;
+    border: 2px solid rgb(246, 212, 19);
     animation: squ 2s linear infinite;
     position: relative;
     right: 20%;

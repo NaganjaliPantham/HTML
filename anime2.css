@@ -102,7 +102,7 @@ body{
         transform: rotate(360deg);
         background-color: transparent;
         transition: 2s;
-        border: 5px solid rgb(209, 8, 41);
+        border: 5px solid rgb(136, 7, 29);
     }
 }
 .square{

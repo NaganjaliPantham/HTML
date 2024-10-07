@@ -60,7 +60,7 @@ body{
     }
     50%{
         transform: rotate(-45deg) scale(1.01);
-        background-color: rgb(252, 156, 156);
+        background-color: rgb(246, 162, 162);
     }
     60%{
         transform: rotate(-45deg) scale(1.0);

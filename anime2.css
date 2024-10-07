@@ -80,7 +80,7 @@ body{
     } 
     100%{
         transform: rotate(-45deg) scale(1.04);
-        background-color:rgb(250, 31, 31);
+        background-color:rgb(246, 18, 18);
     }
 } 
 .circle{

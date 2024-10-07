@@ -76,7 +76,7 @@ body{
     }   
     90%{
         transform: rotate(-45deg) scale(1.03);
-        background-color: rgb(243, 94, 94);
+        background-color: rgb(255, 84, 84);
     } 
     100%{
         transform: rotate(-45deg) scale(1.04);
